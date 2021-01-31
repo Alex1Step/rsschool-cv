@@ -1,7 +1,7 @@
 # Alexander Stepanchuk
 ## Front-end Developer
 
-![My Photo](/IMG_6784--1.jpg)
+![My Photo](/MY_PHOTO.jpg)
 
 ## Contact Information
 **Location:** Hrodna, Belarus  
