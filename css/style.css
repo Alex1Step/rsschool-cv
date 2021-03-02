@@ -4,13 +4,39 @@ body {
   align-items: center;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto.woff2);
+  font-style: normal;
+  font-weight: normal;
 }
 
-.wrapper img {
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/opensans.woff2);
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Roboto;
+  letter-spacing: 0.1rem;
+}
+
+li {
+  font-family: OpenSans;
+  letter-spacing: 0.1rem;
+}
+
+.wrapper {
+  width: 480px;
+  padding-left: 10px;
+  background: rgb(238, 238, 238);
+}
+
+header img {
   height: 20vw;
 }
 
@@ -21,4 +47,31 @@ body {
 
 .inner-list {
   list-style: square;
+}
+
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+footer p {
+  align-self: center;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer img {
+  height: 40px;
 }
