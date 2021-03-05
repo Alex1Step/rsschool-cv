@@ -90,6 +90,10 @@ section a:visited {
   list-style: square;
 }
 
+section code {
+  width: 100%;
+}
+
 
 /* FOOTER */
 footer {
